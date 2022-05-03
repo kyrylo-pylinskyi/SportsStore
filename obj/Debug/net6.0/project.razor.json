@@ -12050,7 +12050,7 @@
         }
       },
       {
-        "HashCode": 1403057278,
+        "HashCode": 1677727841,
         "Kind": "ITagHelper",
         "Name": "SportsStore.Infrastructure.PageLinkTagHelper",
         "AssemblyName": "SportsStore",
@@ -12080,6 +12080,16 @@
             "TypeName": "System.String",
             "Metadata": {
               "Common.PropertyName": "PageAction"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-url-values",
+            "TypeName": "System.Collections.Generic.Dictionary<System.String, System.Object>",
+            "IndexerNamePrefix": "page-url-",
+            "IndexerTypeName": "System.Object",
+            "Metadata": {
+              "Common.PropertyName": "PageUrlValues"
             }
           },
           {
@@ -14316,6 +14326,23 @@
         }
       },
       {
+        "HashCode": -2087520721,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__NavigationMenuViewComponentTagHelper",
+        "AssemblyName": "SportsStore",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:navigation-menu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__NavigationMenuViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "NavigationMenu"
+        }
+      },
+      {
         "HashCode": 141407075,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -16374,6 +16401,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Src\\csharp\\freeman_aspnet\\getting_started\\SportsStore\\SportsSln\\SportsStore\\Views\\Shared\\Components\\NavigationMenu\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\NavigationMenu\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Src\\csharp\\freeman_aspnet\\getting_started\\SportsStore\\SportsSln\\SportsStore\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -16386,6 +16418,26 @@
     {
       "FilePath": "d:\\Src\\csharp\\freeman_aspnet\\getting_started\\SportsStore\\SportsSln\\SportsStore\\Views\\Shared\\ProductSummary.cshtml",
       "TargetPath": "Views\\Shared\\ProductSummary.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Src\\csharp\\freeman_aspnet\\getting_started\\SportsStore\\SportsSln\\SportsStore\\Pages\\Cart.cshtml",
+      "TargetPath": "Pages\\Cart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Src\\csharp\\freeman_aspnet\\getting_started\\SportsStore\\SportsSln\\SportsStore\\Pages\\_CartLayout.cshtml",
+      "TargetPath": "Pages\\_CartLayout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Src\\csharp\\freeman_aspnet\\getting_started\\SportsStore\\SportsSln\\SportsStore\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Src\\csharp\\freeman_aspnet\\getting_started\\SportsStore\\SportsSln\\SportsStore\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
