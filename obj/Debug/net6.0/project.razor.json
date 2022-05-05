@@ -14343,6 +14343,23 @@
         }
       },
       {
+        "HashCode": -113828252,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CartSummaryViewComponentTagHelper",
+        "AssemblyName": "SportsStore",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:cart-summary"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CartSummaryViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "CartSummary"
+        }
+      },
+      {
         "HashCode": 141407075,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -16396,6 +16413,11 @@
   "RootNamespace": "SportsStore",
   "Documents": [
     {
+      "FilePath": "d:\\Src\\csharp\\freeman_aspnet\\getting_started\\SportsStore\\SportsSln\\SportsStore\\Pages\\Completed.cshtml",
+      "TargetPath": "Pages\\Completed.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Src\\csharp\\freeman_aspnet\\getting_started\\SportsStore\\SportsSln\\SportsStore\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -16413,6 +16435,11 @@
     {
       "FilePath": "d:\\Src\\csharp\\freeman_aspnet\\getting_started\\SportsStore\\SportsSln\\SportsStore\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Src\\csharp\\freeman_aspnet\\getting_started\\SportsStore\\SportsSln\\SportsStore\\Views\\Order\\Checkout.cshtml",
+      "TargetPath": "Views\\Order\\Checkout.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16443,6 +16470,11 @@
     {
       "FilePath": "d:\\Src\\csharp\\freeman_aspnet\\getting_started\\SportsStore\\SportsSln\\SportsStore\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Src\\csharp\\freeman_aspnet\\getting_started\\SportsStore\\SportsSln\\SportsStore\\Views\\Shared\\Components\\CartSummary\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\CartSummary\\Default.cshtml",
       "FileKind": "mvc"
     }
   ],

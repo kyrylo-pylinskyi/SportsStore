@@ -4,11 +4,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Sports Store</title>
         <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/lib/font-awesome/css/all.min.css" rel="stylesheet" />
     </head>
     <body>
         <div>
             <div class="bg-dark text-white p-2">
-                <span class="navbar-brand ml-2">SPORTS STORE</span>
+                <div class="row">
+                    <div class="col navbar-brand">SPORTS STORE</div>
+                    <div class="col-6 navbar-text text-end">
+                        <vc:cart-summary/>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row m-1 p-1">

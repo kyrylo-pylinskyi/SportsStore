@@ -9,16 +9,28 @@
             <th>Item</th>
             <th class="text-right">Price</th>
             <th class="text-right">Subtotal</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var line in Model?.Cart?.Lines) {
+        @foreach (var line in Model?.Cart?.Lines ?? new List<Cart.CartLine>()) {
             <tr>
                 <td class="text-center">@line.Quantity</td>
                 <td class="text-left">@line.Product.Name</td>
                 <td class="text-right">@line.Product.Price.ToString("c")</td>
                 <td class="text-right">
                     @((line.Quantity * line.Product.Price).ToString("c"))
+                </td>
+                <td class="text-center">
+                    <form asp-page-handler="Remove" method="post">
+                        <input type="hidden" name="ProductID" 
+                            value="@line.Product.ProductID" />
+                        <input type="hidden" name="returnUrl" 
+                            value="@Model?.ReturnUrl" />
+                        <button type="submit" class="btn btn-danger">
+                            Remove
+                        </button>
+                    </form>
                 </td>
             </tr>
         }
@@ -35,4 +47,7 @@
 
 <div class="text-center">
     <a class="btn btn-primary" href="@Model?.ReturnUrl">Continue shopping</a>
+    <a class="btn btn-primary" asp-action="Checkout" asp-controller="Order">
+        Checkout
+    </a>
 </div>
