@@ -58,3 +58,4 @@ D:\Src\csharp\freeman_aspnet\getting_started\SportsStore\SportsSln\SportsStore\b
 D:\Src\csharp\freeman_aspnet\getting_started\SportsStore\SportsSln\SportsStore\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\Src\csharp\freeman_aspnet\getting_started\SportsStore\SportsSln\SportsStore\obj\Debug\net6.0\SportsStore.csproj.CopyComplete
 D:\Src\csharp\freeman_aspnet\getting_started\SportsStore\SportsSln\SportsStore\bin\Debug\net6.0\libman.json
+D:\Src\csharp\freeman_aspnet\getting_started\SportsStore\SportsSln\SportsStore\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

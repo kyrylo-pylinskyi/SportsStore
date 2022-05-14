@@ -4,7 +4,7 @@ namespace SportsStore.Models
 {
     public class SeedData
     {
-        public static void EnsurePoplated(IApplicationBuilder app){
+        public static void EnsurePopulated(IApplicationBuilder app){
             StoreDbContext context = app.ApplicationServices
                 .CreateScope().ServiceProvider.GetRequiredService<StoreDbContext>();
 
