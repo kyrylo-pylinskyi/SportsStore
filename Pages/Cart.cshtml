@@ -15,19 +15,20 @@
     <tbody>
         @foreach (var line in Model?.Cart?.Lines ?? new List<Cart.CartLine>()) {
             <tr>
-                <td class="text-center">@line.Quantity</td>
-                <td class="text-left">@line.Product.Name</td>
-                <td class="text-right">@line.Product.Price.ToString("c")</td>
-                <td class="text-right">
+                <td class="text-center align-middle">@line.Quantity</td>
+                <td class="text-left align-middle">@line.Product.Name</td>
+                <td><img class="img-fluid align-middle" src="@line.Product.ImageData"/></td>
+                <td class="text-right align-middle" align-middle>@line.Product.Price.ToString("c")</td>
+                <td class="text-right align-middle">
                     @((line.Quantity * line.Product.Price).ToString("c"))
                 </td>
-                <td class="text-center">
+                <td class="text-center align-middle">
                     <form asp-page-handler="Remove" method="post">
                         <input type="hidden" name="ProductID" 
                             value="@line.Product.ProductID" />
                         <input type="hidden" name="returnUrl" 
                             value="@Model?.ReturnUrl" />
-                        <button type="submit" class="btn btn-danger">
+                        <button type="submit" class="btn btn-danger align-middle">
                             Remove
                         </button>
                     </form>
