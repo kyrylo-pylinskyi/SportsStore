@@ -35,6 +35,15 @@
         <ValidationMessage For="@(() => Product.Price)" />
         <InputNumber class="form-control" @bind-Value="Product.Price" />
     </div>
+
+    <div class="form-group">
+        <label>Sizes</label>
+        <InputFile class="form-control" OnChange="@OnInputFileChanged" @bind-Value="Product.ImageData" />
+        @if(Product.ImageData != null) {
+            <img class="img-fluid" src="@Product.ImageData" style="height:25rem;width:25rem;"/>
+        }
+    </div>
+
     <div class="mt-2">
         <button type="submit" class="btn btn-@ThemeColor">Save</button>
         <NavLink class="btn btn-secondary" href="/admin/products">Cancel</NavLink>
@@ -71,4 +80,21 @@
 
     public string ThemeColor => Id == 0 ? "primary" : "warning";
     public string TitleText => Id == 0 ? "Create" : "Edit";
+
+    public string ProductPicDataUrl { get; set; } = String.Empty;
+
+    private async Task OnInputFileChanged(InputFileChangeEventArgs inputFileChangeEventArgs){
+        var fileFormat = "image/png";
+
+        //get file
+        var imageFile = await inputFileChangeEventArgs.File.RequestImageFileAsync(fileFormat, 180, 180);
+
+        //convert file into byte array
+        var buffer = new byte[imageFile.Size];
+        await imageFile.OpenReadStream(1512000).ReadAsync(buffer);
+
+        //convert byte array into base64 string
+        Product.ImageData = $"data:{fileFormat};base64,{Convert.ToBase64String(buffer)}";
+
+    }
 }

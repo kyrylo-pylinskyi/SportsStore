@@ -3,6 +3,7 @@
     <div class="bg-faded p-1">
         <h4>
             @Model?.Name
+                <img src="@Model?.ImageData" class="img-fluid mx-auto" />
                 <span class="badge rounded-pill bg-primary text-white"
                     style="float:right">
                 <small>@Model?.Price.ToString("c")</small>

@@ -15,5 +15,7 @@ namespace SportsStore.Models{
         public decimal Price { get; set; }
         [Required(ErrorMessage = "Please enter a category")]
         public string Category { get; set; } = String.Empty;
+        [Column(TypeName = "TEXT")]
+        public string ImageData { get; set; } = String.Empty;
     }
 }

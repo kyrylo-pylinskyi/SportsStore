@@ -8,109 +8,109 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SportsStore
 build_property.RootNamespace = SportsStore
-build_property.ProjectDir = d:\Src\csharp\freeman_aspnet\getting_started\SportsStore\SportsSln\SportsStore\
+build_property.ProjectDir = D:\Src\csharp\freeman_aspnet\getting_started\SportsStore\SportsSln\SportsStore\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\Src\csharp\freeman_aspnet\getting_started\SportsStore\SportsSln\SportsStore
+build_property.MSBuildProjectDirectory = D:\Src\csharp\freeman_aspnet\getting_started\SportsStore\SportsSln\SportsStore
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Admin/AdminLayout.razor]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Admin/AdminLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRtaW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Admin/Details.razor]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Admin/Details.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGV0YWlscy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Admin/Editor.razor]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Admin/Editor.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRWRpdG9yLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Admin/Orders.razor]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Admin/Orders.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cT3JkZXJzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Admin/OrderTable.razor]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Admin/OrderTable.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cT3JkZXJUYWJsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Admin/Products.razor]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Admin/Products.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZHVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Admin/Routed.razor]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Admin/Routed.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUm91dGVkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Admin/_Imports.razor]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Admin/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cX0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Admin/IdentityUsers.cshtml]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Admin/IdentityUsers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSWRlbnRpdHlVc2Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Admin/Index.cshtml]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Cart.cshtml]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Completed.cshtml]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Completed.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGxldGVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Error.cshtml]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/_CartLayout.cshtml]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/_CartLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0NhcnRMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/_ViewImports.cshtml]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/_ViewStart.cshtml]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Views/Account/Login.cshtml]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Views/Home/Index.cshtml]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Views/Order/Checkout.cshtml]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Views/Order/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Views/Shared/Components/CartSummary/Default.cshtml]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Views/Shared/Components/CartSummary/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FydFN1bW1hcnlcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Views/Shared/Components/NavigationMenu/Default.cshtml]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Views/Shared/Components/NavigationMenu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2aWdhdGlvbk1lbnVcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Views/Shared/ProductSummary.cshtml]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Views/Shared/ProductSummary.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFByb2R1Y3RTdW1tYXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Views/Shared/_Layout.cshtml]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Views/_ViewImports.cshtml]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Views/_ViewStart.cshtml]
+[D:/Src/csharp/freeman_aspnet/getting_started/SportsStore/SportsSln/SportsStore/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
